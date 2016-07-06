@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G7a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="DZi-JK-nIK">
+            <objects>
+                <viewController id="85D-sV-TPa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Cta-3s-K09"/>
+                        <viewControllerLayoutGuide type="bottom" id="JoF-W0-yEi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="763-0a-pXx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2015 Boros, Lang, Zolcer " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="xRF-ra-X1o">
+                                <rect key="frame" x="4" y="526" width="312" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="MGt-8O-UOc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="20" y="559" width="360" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="20" y="559" width="360" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="All rights reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0RY-H9-f0u">
+                                <rect key="frame" x="106" y="547" width="115" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="bIJ-vb-ZgF"/>
+                                    <constraint firstAttribute="height" constant="21" id="pNb-rB-Tu8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12204759_10205187207221319_1098289450_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SfD-IL-4Ie">
+                                <rect key="frame" x="-4" y="198" width="320" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="3y4-df-n8a"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SfD-IL-4Ie" firstAttribute="top" secondItem="Cta-3s-K09" secondAttribute="bottom" constant="178" id="0QV-ki-LHc"/>
+                            <constraint firstAttribute="trailing" secondItem="SfD-IL-4Ie" secondAttribute="trailing" constant="4" id="3rg-3B-vnT"/>
+                            <constraint firstItem="xRF-ra-X1o" firstAttribute="trailing" secondItem="SfD-IL-4Ie" secondAttribute="trailing" id="EQg-QX-z3y"/>
+                            <constraint firstItem="0RY-H9-f0u" firstAttribute="leading" secondItem="763-0a-pXx" secondAttribute="leadingMargin" constant="86" id="KFY-ff-eeQ"/>
+                            <constraint firstAttribute="bottom" secondItem="xRF-ra-X1o" secondAttribute="bottom" constant="20" symbolic="YES" id="RcM-WK-yfr"/>
+                            <constraint firstItem="0RY-H9-f0u" firstAttribute="top" secondItem="SfD-IL-4Ie" secondAttribute="bottom" constant="196" id="Ww8-2g-bTA"/>
+                            <constraint firstItem="SfD-IL-4Ie" firstAttribute="leading" secondItem="763-0a-pXx" secondAttribute="leading" constant="-4" id="c8a-6F-sRo"/>
+                            <constraint firstItem="xRF-ra-X1o" firstAttribute="centerX" secondItem="763-0a-pXx" secondAttribute="centerX" id="fX7-0l-soa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0RY-H9-f0u" secondAttribute="trailing" constant="79" id="mnH-vF-4FE"/>
+                            <constraint firstItem="JoF-W0-yEi" firstAttribute="top" secondItem="0RY-H9-f0u" secondAttribute="bottom" id="wty-mj-G5X"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yCa-jl-t5V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="627" y="341"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="12204759_10205187207221319_1098289450_n.jpg" width="800" height="400"/>
+    </resources>
+</document>
